@@ -1,4 +1,20 @@
-# Stockify
+# Stockify Vercel Deploymnet
+
+I used vercel to deploy this project as that is what our team is currently focusing on. 
+
+## Vercel.json
+
+This is not a neccesarry part for the deployment as vercel itself gives the option to do it on their website. However, for you to see the settings that I put, this is included.
+It shows basic deployment settings: The root folder is frontend/ and that the framework used is next.js. This helps vercel know how to build the app, as well as give is instructions
+to what the source of the page should be
+
+## Github Secrets
+
+Git hub secrets were created for the token, projectID, and userID
+
+## Martin_Vercel_Deployment.yml 
+
+This file is for automated deployment. It helps vercel know when pushes are made so that the site can update along with the changes rather than having to deploy a new version everytime. It also helps with testing purposes. 
 
 ## Backend
 This project uses Supabase as the backend service. Supabase provides:
